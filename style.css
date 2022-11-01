@@ -11,9 +11,9 @@
   list-style-type: none;
 }
 
-.header__item {
+/* .header__item {
   background-color: red;
-}
+} */
 
 .header__item--button {
     border: none;
