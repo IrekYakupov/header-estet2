@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 25px 18px 27px;
+  align-items: center;
+  list-style-type: none;
+}
+
+.header__item {
+  background-color: red;
+}
+
+.header__item--button {
+    border: none;
+}
+
+.header__item--glass {
+  width: 18px;
+  height: 18px;
+}
+
+.header__item--logo {
+  width: 40px;
+  height: 40px;
+}
+
+.header__item--hidden {
+    display: none;
+}
+
+.header__item--burger {
+  width: 29px;
+  height: 17px;
+}
+
+@media (min-width: 768px) {
+
+  .header {
+    padding: 52px 85px 52px 82px;
+    justify-content: flex-start;
+  }
+
+  .header__item--search-mobile {
+    margin-right: 50%;
+  }
+
+  .header__item--hidden {
+    display: none;
+  }
+
+  .header__item--burger {
+    display: none;
+  }
+
+}
+
+@media (min-width:1024px) {
+
+    .header {
+        justify-content: space-between;
+    }
+
+    .header__item--hidden {
+        display: block;
+    }
+
+    .header__item--search-mobile {
+        display: none;
+    }
+}
