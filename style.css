@@ -11,35 +11,25 @@
   list-style-type: none;
 }
 
-.header__item--button {
+.item__button {
   border: none;
   background-color: transparent;
 }
 
-.header__item--hidden {
+.item__hidden {
   display: none;
 }
 
-.header__wrap--reverse {
-  display: flex;
-  align-items: center;
+.switch-language {
+  margin-right: 90px;
 }
 
-.header__button {
-  display: flex;
-}
-
-.nav {
-  display: flex;
-  align-items: center;
-}
-
-.header__item--logo {
+.item--logo {
   width: 40px;
   height: 40px;
 }
 
-.header__item--burger {
+.item--burger {
   width: 29px;
   height: 17px;
 }
@@ -55,11 +45,19 @@
     padding: 52px 80px;
   }
 
-  .header__item--hidden {
+  .item__hidden {
     display: block;
   }
 
-  .header__wrap--reverse {
-    flex-direction: row-reverse;
+  .item__search-mobile {
+    display: none;
+  }
+
+  .item__button--margin {
+    margin-right: 51px;
+  }
+
+  .item__button--margin-right {
+    margin-right: 100px;
   }
 }

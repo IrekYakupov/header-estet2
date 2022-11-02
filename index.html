@@ -8,30 +8,39 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-
     <ul class="header">
-      <button class="header__item--button header__item--hidden">RU</button>
+      <button class="item__button item__hidden switch-language">RU</button>
 
-      <div class="header__wrap--reverse">
+      <button class="item__button item__search-mobile">
+        <img src="/img/search.svg" alt="" />
+      </button>
 
-        <div class="header__button">
-          <button class="header__item--button">Лупа</button>
-          <button class="header__item--button header__item--hidden">Сердце</button>
-          <button class="header__item--button header__item--hidden">Корзина</button>
-        </div>
+        <li class="item__hidden">Каталог</li>
+        <li class="item__hidden">Покупателям</li>
+        <li class="item__hidden">Дизайнерам</li>
+        <button class="item__button">
+          <img class="item--logo" src="/img/logo.svg" alt="" />
+        </button>
+        <li class="item__hidden">Компания</li>
+        <li class="item__hidden">Где купить</li>
 
-        <nav class="nav">
-          <li class="header__item--hidden">Каталог</li>
-          <li class="header__item--hidden">Покупателям</li>
-          <li class="header__item--hidden">Дизайнерам</li>
-          <!-- <img src="/img/Fill 4.svg" alt=""> -->
-          <li class="header__item--logo">Лого</li>
-          <li class="header__item--hidden">Компания</li>
-          <li class="header__item--hidden">Где купить</li>
-        </div>
+      <div class="header__button item__hidden">
+        <button class="item__button item__button--margin">
+          <img src="/img/search.svg" alt="" />
+        </button>
 
+        <button class="item__button item__button--margin">
+          <img src="/img/favorites.svg" alt="" />
+        </button>
+
+        <button class="item__button item__button--margin-right">
+          <img src="/img/cart.svg" alt="" />
+        </button>
       </div>
-      <button class="header__item--button header__item--burger">Бургер</button>
+
+      <button class="item__button">
+        <img class="item--burger" src="/img/Burger.svg" alt="" />
+      </button>
     </ul>
   </body>
 </html>
